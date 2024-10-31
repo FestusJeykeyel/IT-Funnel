@@ -3,31 +3,210 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="It-test-Internettechnologie/style.css">
-    <title>IT Macher</title>
-</head>
-<body>
-    <header>
-        <nav class="navigation">
-            <a href="#">Was machen?</a>
-            <a href="#">Events</a>
-            <a href="#">Kontakt</a>
-            <a href="#">Über uns</a>
-        </nav>
+    <!--Einbindungen -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <!-- Bottstrap-->
 
-        <div class="loginsection">
-            <form action="">
-                <input type="text" placeholder="Benutzername">
-                <input type="password" placeholder="Password">
-                <button>Login</button>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>IT Macher</title>
+
+</head>
+<body class="mainBody">
+    <header class="headerHomepage">
+        <nav class="navbar  bg-body-teritary" >
+            <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="Bilder/briefcase.svg" alt="Bootstrap" width="30" height="24">
+            </a>
+            </div>
+        
+<!--Search bar-->
+        <div class="container-fluid">
+            <a class="navbar-brand">Homepage</a>
+            <a class="navbar-brand" href="recruting.html">Recruting</a>
+            <a class="navbar-brand" href="WasMAchenWir.html">Was machen wir?</a>
+            <a class="navbar-brand">Kontakt</a>
+            <a class="navbar-brand">Über uns</a>
+            
+            <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+            <button type="button" class="btn btn-outline-primary">Login</button>
+            <a class="btn btn-primary" href="#" role="button">Register</a>
             </form>
         </div>
+        
+        </nav>            
+
+            <!-- Old Navbar 
+                
+                <nav class="navigation">
+                <a href="WasMAchenWir.html">Was machen?</a>
+                <a href="#">Events</a>
+                <a href="#">Kontakt</a>
+                <a href="#">Über uns</a>
+            </nav>
+            
+            <div class="LoginSection">
+                <form action="">
+                    <input id="Name" type="text" placeholder="Benutzername">
+                    <br>
+                    <input id="Password" type="password" placeholder="Password">
+                    <button>Login</button>
+                </form>
+            </div>
+            -->
 
     </header>
 
-    <div class="articles">
+    <!--Beschreibung folgt in kürze-->
+<div class="wrapperMeta">
+    <div class="wrapper">
+        <article class="art">
+            <div class="news">
+                <img src="Bilder/ITStrruktur.jpg.avif" width="300">
+                <div class="artBody"> 
+                    <p> <b>Innovation driven by passions.</b></p>
+                </div>
+            </div>
 
+            <div class="news2">
+                <img src="Bilder/shakingHands.jpg" width="300">
+                <div class="artBody"> 
+                    <p> <b>Innovation driven by passions.</b></p>
+                </div>
+            </div>
+
+            <div class="news3">
+                <img src="Bilder/team_work.jpeg" width="200">
+                <div class="artBody"> 
+                    <p> <b>Innovation driven by passions.</b></p>
+                </div>
+            </div>
+            <div class="news4">
+                <img src="Bilder/skalierbarkeit.jpeg" width="300">
+                <div class="artBody"> 
+                    <p> <b>Innovation driven by passions.</b></p>
+                </div>
+            </div>
+        </article>
+        <aside class="stellenanzeige">
+
+            <div class="card">
+                <img src="Bilder/Firmenlogo.svg" class="card-img-top" alt="In Arbeit">
+                <div class="card-body">
+                <h5 class="card-title">Offene Stellen</h5>
+                <p class="card-text">Hier kannst du alles offenen Stellen sehen.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                <li class="list-group-item">Fachinformatiker</li>
+                <li class="list-group-item">IT Ingeneur</li>
+                <li class="list-group-item">System- Adrministrator</li>
+                </ul>
+                <div class="card-body">
+                <a href="#" class="card-link">Card link</a>
+                <a href="#" class="card-link">Another link</a>
+                </div>
+            </div>
+
+            <!--
+                <div class="jobs">
+                <h1>Offene Stellen</h1>
+                <ul>
+                    <li>
+                        <a href="#">Fachinformatiker</a>
+                    </li>
+                    <li>
+                        <a href="#">IT Ingeneur</a>
+                    </li>
+                    <li>
+                        <a href="#">System- Adrministrator</a>
+                    </li>
+                    <li>
+                        <a href="#">Außendienst</a>
+                    </li>
+                    
+                </ul>
+            </div>
+        -->
+        </aside>
     </div>
+
+    <div class="wrapperSlider">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="Bilder/it_macher.jpeg" class="d-block w-100" alt="house">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>IT Macher, machen es möglich</h5>
+                <p>Deutschlandweit ihr größter IT Vertriebs und Softwärelösungs Anbieter.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Bilder/monitor-1307227_640.jpg" class="d-block w-100" alt="House">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Driven by innovation</h5>
+                <p>Maßgeschneidete IT-Lösungen.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="Bilder/shakingHands.jpg" class="d-block w-100" alt="Hands">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Costumer satification</h5>
+                <p>Jahre lange Erfahrung mit unseren Kunden.</p>
+                </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</div>
     
+</div>
+        
+
+
+        
+        
+    <hr>
+    <footer>
+    
+        <a href="#"></a>
+        <a href="#"></a>
+        <a href="Impressum.html">Impressum</a>
+        <a href="AGB.html">AGB</a>
+        <a href="Überuns.html">Über uns</a>
+
+        <!--Javascript-->
+
+        <script src="funnel.js"></script>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+
+
+        <p id="demo"></p>
+        const jobs= ["Fachinformatiker", "IT Guy", "Admin","Capital Bra"];
+
+        let text="";
+        for(let i=0; i< jobs.length;i++){
+            text += jobs[i];
+        }
+
+        document.getElementById("demo").innerHTML = text;
+
+
+    </script>
 </body>
 </html>

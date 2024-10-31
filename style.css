@@ -1,0 +1,143 @@
+.mainBody{ background-color:#c8e0fa;
+    flex-direction: column;
+
+    
+}
+
+.wrapperMeta{
+    margin: 0px 100px 0px 100px;
+}
+.wrapper{
+    height: auto;
+    display: flex;
+    background-color: rgb(173, 162, 162);
+    flex-shrink: 1;
+    justify-content:center;
+}
+
+.wrapperSlider img{
+    margin-top: 50px;
+    border: solid;
+    border-radius: 5%;
+}
+
+.wrapperWirMachenDas{
+    border-style:double;
+    border-color: black;
+    background-color: black;
+    position:static;
+    left: 400;
+    bottom: 0;
+}
+
+.WasErzählenWir{
+   justify-content: center;
+   align-items: center;
+}
+
+.art{
+    height: 700px;
+    /*width: 800px;*/
+    border-style:solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    align-content: space-evenly;
+
+   
+    /*
+    margin: 100px 100px 50px 10px;
+    position: relative;
+    */    
+}
+
+.news img,.news2 img,.news3 img,.news4 img{
+    height: 300px;
+    width: 450px;
+    border-style: solid;
+    border-radius: 6%;
+    flex-shrink: 1;
+}
+
+.stellenanzeige{
+    border: solid;
+
+}
+
+.slider{
+    height: 300px;
+    width:800px;
+    border: solid;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.LoginSection{
+    height: 40px;
+    width: 400px;
+    background-color: black;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+footer{
+    justify-items: center;
+    align-content: end;
+    gap: 20px;
+}
+
+/*---------------------- Recruting -----------------------*/
+
+.funnelQuestions{
+    height: 500px;
+    width: 800px;
+    border: solid;
+    border-radius: 10%;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    background-color:beige;
+}
+
+.navbar{
+    background-color: rgb(110, 110, 110);
+    margin-bottom: 50px;
+    
+}
+
+.navbar a{
+    text-decoration: none;
+    justify-content: space-evenly;
+}
+
+/*Was Machen Wir? Page*/
+
+.wrapperRecruting{
+    margin: 0px 52px 0px 52px;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.box-1,.box-3 {
+    height: 200px;
+    width: 650px;
+    background-color: blue;
+    border-style: solid;
+}
+
+.box-2,.box-4 {
+    height: 200px;
+    width: 650px;
+    background-color: blue;
+    border-style: solid;
+    align-self: flex-end;
+    
+}
+
+/*------------------------Kontakt-------------------------------------*/
+
+/*------------------------Impressum-----------------------------------*/
+/*----------------------------AGB-------------------------------------*/
+
